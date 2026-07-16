@@ -1,0 +1,69 @@
+/* universal selector */
+/* * {
+    background-color: cyan;
+} */
+
+body {
+    background-color: #fdf0d5;
+}
+
+/* element selector */
+button {
+    font-size: 30px;
+    background-color: #669bbc;
+}
+
+h1, h2 {
+    color: #003049;
+}
+
+/* Id selector, can only be used once */
+#signup {
+    background-color: #780000;
+    color: #fdf0d5;
+}
+
+span {
+    color: #669bbc;
+}
+
+/* Class selector */
+.tag {
+    background-color: #c1121f;
+    color:#fdf0d5;
+    font-size: 16px;
+}
+
+/* Descendent selector */
+.post a {
+    color: #669bbc;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+footer a {
+    color: #780000;
+}
+
+h2 + button {
+    font-size: 20px;
+    background-color: magenta;
+}
+
+/* Direct descendent selector */
+footer > a {
+    color: #669bbc;
+}
+
+button:hover {
+    background-color: #e63946;
+    color: #fdf0d5;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #669bbc;
+}
