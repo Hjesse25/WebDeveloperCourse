@@ -1,20 +1,18 @@
 span {
-    background-color: palevioletred;
+    background: red;
     border: 1px solid black;
     width: 500px;
     padding: 50px;
     margin: 50px;
 }
 
-
 h1 {
-    background-color: paleturquoise;
+    background: paleturquoise;
     border: 1px solid black;
     width: 300px;
     padding: 50px;
     margin: 100px;
 }
-
 
 div {
     height: 200px;
@@ -23,5 +21,6 @@ div {
     border: 5px solid black;
     display: inline-block;
     margin: 50px;
-
 }
+
+
